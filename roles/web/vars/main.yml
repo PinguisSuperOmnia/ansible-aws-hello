@@ -1,0 +1,8 @@
+---
+# vars file for web
+local_key_file: "{{ playbook_dir }}/files/nginx.key"
+local_cert_file: "{{ playbook_dir }}/files/nginx.crt"
+key_file: /etc/nginx/ssl/nginx.key
+cert_file: /etc/nginx/ssl/nginx.crt
+conf_file: /etc/nginx/sites-available/default
+server_name: localhost
